@@ -16,3 +16,46 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+div.container {
+   min-width: 500px;
+   height: 50%;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 1.5rem;
+
+
+ }
+
+body#background {
+  background: url("http://walldiskpaper.com/wp-content/uploads/2014/11/White-Background-Themes-HD.jpg") no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+table{
+  margin: 25px auto;
+}
+
+
+td.well {
+  padding: 10px 30px;
+  margin: 20px;
+}
+
+td.well a {
+  padding: 10px;
+  padding-top:  20px;
+}
+
+
+
+
+ // @import "bootstrap-sprockets";
+ // @import "bootstrap";
+ // @import "font-awesome";
